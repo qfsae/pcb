@@ -1,0 +1,6 @@
+[submodule "libraries/JLCSMT_LIB"]
+	path = libraries/JLCSMT_LIB
+	url = https://github.com/actiBMS/JLCSMT_LIB
+[submodule "libraries/jlcpcb-design-rules-stackups"]
+	path = libraries/jlcpcb-design-rules-stackups
+	url = https://github.com/ayberkozgur/jlcpcb-design-rules-stackups.git

@@ -40,6 +40,7 @@ TODO
 - Ground pours on top and bottom with stitching vias for 2 layer boards?
 - Length matching for differential signals like CAN.
 - Ground plane far away from CAN or other differential traces (Ie USB) to make sure they reference one another and not ground.
+- Short Circuit protection through current monitor or e fuse? (maybe only apply on boards with expensive parts, ie. short protected dedicated power rail for dash screen)
 
 # Contributing a New Design
 TODO

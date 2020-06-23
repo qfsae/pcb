@@ -26,27 +26,41 @@ Altium has integrated Git support. The instructions below show how to configure 
 
 TODO
 
-# Design Review Checklist
+# Design Review Checklists
 
-TODO
+## Schematic Checklist
+- All important nets named
+- No 4 point connections
+- Short circuit protection via current monitor implementation or fuse, especially for power rails supplying expensive parts
+- No circuit compilation errors
 
-- No DRC errors?
-- all SMD parts on one layer? (might be able to get this into a custom design rule)
-- IR calculations for high current traces?
-- Proper filter capacitor placement (important for STM32 MCU)
-- All important nets named?
-- No 4 point connections?
-- Ground and power planes for 4 layer boards
-- Ground pours on top and bottom with stitching vias for 2 layer boards?
-- Length matching for differential signals like CAN.
-- Ground plane far away from CAN or other differential traces (Ie USB) to make sure they reference one another and not ground.
-- Short Circuit protection through current monitor or e fuse? (maybe only apply on boards with expensive parts, ie. short protected dedicated power rail for dash screen)
+## 2 Layer Boards
 
-# Contributing a New Design
-TODO
-- Pull request
-- work through design review in comments of PR
-- Board is only merged to master branch when it is ready to order
-- Any new board or revision that had problems is marked as such to prevent flawed circuits from being copied in other designs.
+- No DRC errors
+- All SMD parts on one layer
+- IR Calculations for high current traces
+  * The width should be large enough such that temperature increase for the expected current is no more than 5 to 10 degrees celsius
+- Board is mechanically sound, dimensions are correct and component height does not create mechanical conflicts
+- IO ports and connectors double checked such that they are accessible when the board is fully assembled
+- No unconnected ground (remove dead copper button checked on Altium polygon object or add stitching via)
+- Ground pour on top and bottom layers.
+- Stitching vias
+- Length matching for high speed signals and differential pairs
+- Proper filter capacitor placement for MCU layout (as close to the pin as possible and in the path of current flow)
 
+## 4 Layer Boards
+
+- No DRC errors
+- All SMD parts on one layer
+- IR Calculations for high current traces
+  * The width should be large enough such that temperature increase for the expected current is no more than 5 to 10 degrees celsius
+- Ground and power plane
+- Board is mechanically sound, dimensions are correct and component height does not create mechanical conflicts
+- IO ports and connectors double checked such that they are accessible when the board is fully assembled
+- Length matching for high speed signals and differential pairs
+- Proper filter capacitor placement for MCU layout (as close to the pin as possible and in the path of current flow)
+- No buried vias as JLCPCB cannot fabricate these.
+
+# Contributing a New Design and Starting a Review
+To contribute a new PCB design, commit the Altium project in its own folder at the top level of the repository on a new branch matching the project name. Open a pull request for this branch to merge it to the `master` branch. To initiate the design review, assign several other electrical team members to the pull request. Once each reviewer has verified that the PCB satisfies the relevant checklist above, the designer will generate Gerber files for the PCB and commit them. After the Gerbers are double checked, the pull request is merged and the board is ordered. If the PCB arrives and has errors, then the design is removed from `master` branch and the process starts again.
 

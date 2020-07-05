@@ -14,7 +14,9 @@ The QFSAE team designs its boards using Altium. If you do not have Altium instal
 In order to meet these manufacturing conditions, we must restrain the SMD parts we use to those offered by JLCPCB and use Altium design rules that reflect the manufacturing capabilities of JLCPCB when checking our PCB layouts. The parts library is quite vast with over 30,000 components. With that being said, there will still be cases where a custom footprint or one from another library must be used. In that case, check with another team member to verify that it can be hand soldered properly. The sections below provide instructions on importing the JLC parts libraries, which are included in this repository as well as design rules.
 
 ## Library Setup
-TODO
+The JLC PCB Altium component libraries are located in the libraries folder of this repository. Import the libraries using the instructions [here](https://www.altium.com/documentation/altium-designer/integratedlibrary-dlg-addremovelibrariesformavailable-file-based-libraries-ad). Your final available libraries panel should like the photo below. Be sure to also keep the Altium default libraries.
+
+![My Altium Lib Panel](https://imgur.com/XRmxG6a)
 
 ## Design Rule Configuration
 
@@ -31,7 +33,7 @@ Altium has integrated Git support. The instructions below show how to configure 
 ## Schematic Checklist
 - All important nets named
 - No 4 point connections
-- Short circuit protection via current monitor implementation or fuse, especially for power rails supplying expensive parts
+- Short circuit protection via current monitor implementation or fuse, Specifically for power rails supplying expensive parts
 - No circuit compilation errors
 
 ## 2 Layer Boards

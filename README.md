@@ -20,7 +20,7 @@ The JLC PCB Altium component libraries are located in the libraries folder of th
 
 ## Design Rule Configuration
 
-TODO 
+The design rules you import will depend on the layer count and copper density you want to use (JLCPCB offers 1oz and 2oz). The `.RUL` Altium design rule files can be found in `pcb/libraries/jlcpcb-design-rules-stackups/design-rules/altium`. The instructions for importing the design rules into your project can be found [here](https://www.altium.com/cn/documentation/altium-designer/constraining-the-design-design-rules-ad?version=18.1).
 
 ## Version Control
 

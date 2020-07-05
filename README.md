@@ -24,7 +24,7 @@ TODO
 
 Altium has integrated Git support. The instructions below show how to configure the Git extension. However, using command line git or some other client is also fine. 
 
-TODO
+[Altium Git Integration](https://www.altium.com/documentation/altium-designer/using-version-control-ad)
 
 # Design Review Checklists
 

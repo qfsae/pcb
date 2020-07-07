@@ -64,5 +64,12 @@ Altium has integrated Git support. The instructions below show how to configure 
 - No buried vias as JLCPCB cannot fabricate these.
 
 # Contributing a New Design and Starting a Review
-To contribute a new PCB design, commit the Altium project in its own folder at the top level of the repository on a new branch matching the project name. Open a pull request for this branch to merge it to the `master` branch. To initiate the design review, assign several other electrical team members to the pull request. Board change requests and feedback will be provided as comments on the pull request. Once each reviewer has verified that the PCB satisfies the relevant checklist above, the designer will generate Gerber files for the PCB and commit them. After the Gerbers are double checked, the pull request is merged and the board is ordered. If the PCB arrives and has errors, then the design is removed from `master` branch and the process starts again.
+
+To contribute a new PCB design, follow these steps:
+
+- Commit the Altium project in its own folder at the top level of the repository on a new branch matching the project name
+- Open a pull request on this branch set to merge to the `master` branch
+- To initiate the design review, assign several other electrical team members to pull request via the request review feature on GitHub. Board change requests and feedback will be provided as comments on the pull request.
+- Once each reviewer has verified that the PCB satisfies the relevant checklist above, the designer will generate Gerber files for the PCB and commit them
+- After the Gerbers are double checked, the pull request is merged and the board is ordered. If the PCB arrives and has errors, then the design is removed from `master` branch and the process starts again.
 

@@ -72,4 +72,4 @@ To contribute a new PCB design, follow these steps:
 - To initiate the design review, assign several other electrical team members to pull request via the request review feature on GitHub. Board change requests and feedback will be provided as comments on the pull request.
 - Once each reviewer has verified that the PCB satisfies the relevant checklist above, the designer will generate Gerber files for the PCB and commit them
 - After the Gerbers are double checked, the pull request is merged and the board is ordered. If the PCB arrives and has errors, then the design is removed from `master` branch and the process starts again.
-
+- Process Example: https://github.com/qfsae/pcb/pull/2

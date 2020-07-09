@@ -8,6 +8,7 @@ The QFSAE team designs its boards using Altium. If you do not have Altium Design
 
 - All surface mount components must be on one side of the board
 - Through hole parts will not be soldered
+- Board must be at least 20 x 20 mm
 - The components must be from the JLCPCB parts that they keep in stock at their manufacturing facility.
 - The part being populated on the board must be within the size and clearance constraints given by JLC PCB.
 

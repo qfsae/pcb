@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Transceiver.PrjPcb]
+   Generated File[Transceiver.TXT]
+   Generated File[Transceiver.LDP]
+   Generated File[Transceiver.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 8:16:54 PM On 2020-07-09

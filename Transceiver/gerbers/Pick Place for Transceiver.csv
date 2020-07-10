@@ -1,0 +1,18 @@
+Altium Designer Pick and Place Locations
+C:\Users\Ethan Peterson\Documents\pcb\Transceiver\Project Outputs for Transceiver\Pick Place for Transceiver.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       09-07-20
+Time:       20:25
+Revision:   ed19219efecf12d8d0baaccab4ad0b3403bb1be8
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"U1","CAN/SN65HVD230DR","TopLayer","SOIC-8_150mil","3670.000","2605.000","0","CAN"
+"R2","120O ±1%","TopLayer","0402_R","3670.000","2815.000","180","Chip resistor"
+"R1","10KO ±1%","TopLayer","0402_R","3460.000","2600.000","270","Chip resistor"
+"P2","Header 2","TopLayer","HDR1X2","3660.000","3020.000","360","Header, 2-Pin"
+"P1","Header 4","TopLayer","HDR1X4","3660.000","2340.000","180","Header, 4-Pin"

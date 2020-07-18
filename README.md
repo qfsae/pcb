@@ -36,6 +36,8 @@ Altium has integrated Git support. The instructions below show how to configure 
 - No 4 point connections
 - Short circuit protection via current monitor implementation or fuse, Specifically for power rails supplying expensive parts
 - No circuit compilation errors
+- Active low signals have `_n` at the end of their net name
+- Differential pair nets are named with `_P` and `_N` endings. Both nets in the pair should also be marked with the differential pair schematic marking in Altium
 
 ## 2 Layer Boards
 

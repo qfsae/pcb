@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of PCB Document [Debugger.PcbDoc]
+   Generated File[2020-08-03.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 6:24:57 PM On 2020-08-03

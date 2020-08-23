@@ -1,0 +1,355 @@
+*************************************************************
+FileName = Buck.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Assembly
+      File : Buck.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Buck.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Buck.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Buck.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D17
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : Buck.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Buck.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Buck.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D29
+    D30
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : Buck.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : Buck.GM21
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Buck.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D29
+    D30
+    D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Buck.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D29
+    D30
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : Buck.GM3
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : Buck.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : Buck.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : Buck.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D29
+    D30
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Buck.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : Buck.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : Buck.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : Buck.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Buck.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : Buck.GM2
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Buck.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : Buck.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Buck.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D29
+    D30
+    D36
+    D37
+    D38
+*************************************************************
+

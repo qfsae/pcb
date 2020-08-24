@@ -1,0 +1,12 @@
+Record=SheetSymbol|SourceDocument=Ethernet.SchDoc|Designator=U_PoE|SchDesignator=U_PoE|FileName=PoE.SchDoc|SymbolType=Normal|RawFileName=PoE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_Arduino_ Connectors|SchDesignator=U_Arduino_ Connectors|FileName=Arduino_ Connectors.SchDoc|SymbolType=Normal|RawFileName=Arduino_ Connectors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_AUDIO|SchDesignator=U_AUDIO|FileName=AUDIO.SchDoc|SymbolType=Normal|RawFileName=AUDIO.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_DSI_LCD|SchDesignator=U_DSI_LCD|FileName=DSI_LCD.SCHDOC|SymbolType=Normal|RawFileName=DSI_LCD.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_Ethernet|SchDesignator=U_Ethernet|FileName=Ethernet.SchDoc|SymbolType=Normal|RawFileName=Ethernet.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_Peripherals|SchDesignator=U_Peripherals|FileName=Peripherals.SchDoc|SymbolType=Normal|RawFileName=Peripherals.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_QSPI|SchDesignator=U_QSPI|FileName=QSPI.SchDoc|SymbolType=Normal|RawFileName=QSPI.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_SDRAM|SchDesignator=U_SDRAM|FileName=SDRAM.SchDoc|SymbolType=Normal|RawFileName=SDRAM.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_ST_LINK_V2-1|SchDesignator=U_ST_LINK_V2-1|FileName=ST_LINK_V2-1.SCHDOC|SymbolType=Normal|RawFileName=ST_LINK_V2-1.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_STM32F7|SchDesignator=U_STM32F7|FileName=STM32F7.SchDoc|SymbolType=Normal|RawFileName=STM32F7.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=mb1225.SchDoc|Designator=U_USB_OTG_HS|SchDesignator=U_USB_OTG_HS|FileName=USB_OTG_HS.SchDoc|SymbolType=Normal|RawFileName=USB_OTG_HS.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=mb1225.SchDoc

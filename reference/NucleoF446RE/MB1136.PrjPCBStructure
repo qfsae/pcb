@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=MB1136.SchDoc
+Record=SheetSymbol|SourceDocument=MB1136.SchDoc|Designator=U_Connectors|SchDesignator=U_Connectors|FileName=Connectors.SchDoc|SymbolType=Normal|RawFileName=Connectors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MB1136.SchDoc|Designator=U_MCU_64|SchDesignator=U_MCU_64|FileName=MCU_64.SchDoc|SymbolType=Normal|RawFileName=MCU_64.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MB1136.SchDoc|Designator=U_ST_LINK_V2-1|SchDesignator=U_ST_LINK_V2-1|FileName=ST_LINK_V2-1.SCHDOC|SymbolType=Normal|RawFileName=ST_LINK_V2-1.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

@@ -66,6 +66,16 @@ Altium has integrated Git support. The instructions below show how to configure 
 - Proper filter capacitor placement for MCU layout (as close to the pin as possible and in the path of current flow)
 - No buried vias as JLCPCB cannot fabricate these.
 
+## Polygons
+- Check the pour order of polygons to ensure no shorting will take place between polygons (Should also be caught in DRC)
+- Do NOT use polygons with curved edges or shallow angles, stick to 90 and 45 degree angles
+- For hand soldering, all parts should have some form of thermal relief
+- Remove all dead copper using the option in Altium
+- Ensure that all Polygons are re-poured before running a DRC
+- Ensure Polygons pour over all same net objects so they connect to traces of the same net
+- Checklist does not apply to ground and power planes, only to polygons used in routing.
+- Do NOT use overlapping polygons, combine the two polygons together into one and adjust the final shape accordingly.
+
 # Contributing a New Design and Starting a Review
 
 To contribute a new PCB design, follow these steps:

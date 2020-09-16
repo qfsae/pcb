@@ -19,6 +19,8 @@ The JLC PCB Altium component libraries are located in the libraries folder of th
 
 ![Altium Panel](https://i.imgur.com/d9237hu.png)
 
+For a broader selection of high quality footprints please follow the installation guide for the [Celestial Altium Library](https://altiumlibrary.com/GetStarted). The component you are looking for will not always appear in the JLC PCB or Celestial libraries. If this is the case, then use Altium's manufacturer part search feature.
+
 ## Design Rule Configuration
 
 The design rules you import will depend on the layer count and copper density you want to use (JLCPCB offers 1oz and 2oz). The `.RUL` Altium design rule files can be found in `pcb/libraries/jlcpcb-design-rules-stackups/design-rules/altium`. The instructions for importing the design rules into your project can be found [here](https://www.altium.com/documentation/altium-designer/constraining-the-design-design-rules-ad#!exporting-and-importing-rules).

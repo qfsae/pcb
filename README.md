@@ -2,6 +2,12 @@
 
 This repository stores the various PCB designs made by the QFSAE team as well as useful reference designs.
 
+## Cloning The Repository
+- If you do not have git installed, please download it [here](https://git-scm.com/downloads).
+- Clone the repository using the git command line interface (CLI) by typing the command `git clone https://github.com/qfsae/pcb.git`.
+- Download the Altium Designer library modules using `git submodule update --init`.
+- Alternatively to the CLI, you can install [GitHub Desktop](https://desktop.github.com/). Cloning the repository with GitHub Desktop will automatically download the sub modules.
+
 # Altium Designer
 
 The QFSAE team designs its boards using Altium Designer. If you do not have Altium Designer (hereby referred to as "Altium") installed, Please contact Logan or Brent to obtain the appropriate licensing information to get Altium up and running on your computer. In regards to manufacturing, the team most often makes use of [JLCPCB](https://jlcpcb.com/). Traditionally, PCBs made by QFSAE members have been populated by hand in house. However, due to the restrictions imposed on team operation by the ongoing COVID-19 pandemic, it has become of utmost importance to create an Altium workflow which allows us to outsource our board assembly in an efficient manner. JLCPCB offers an economical assembly service for surface mount components with the following caveats.

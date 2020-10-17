@@ -45,9 +45,11 @@ Please try to release your license whenever you are not working in Altium we don
 For the majority of projects the only library required is the JLCPCB Altium component library. It can be located in the [libraries](https://github.com/qfsae/pcb/tree/master/libraries) folder of this repository, under **"JLCSMT_LIB"**. 
 
 #### Adding Parts Libraries
-The JLC library is a linked repository, so start by navigating to the [libraries](https://github.com/qfsae/pcb/tree/master/libraries) folder of this repository, clicking through to the JLC library repository and downloading it. Save the library in a safe directory (ie. not Downloads!) We will be adding it to your Altium installation so it is available for use in all projects.
+You can add parts libraries to your Altium installation so their components are always available for use in any project. Most of these steps are applicable to any library, but first a word on getting the JLC library we use:
 
-Next, open the components panel if it is not already visible on the right. This can be done by clicking on the **"Panels"** button in the bottom right corner and choosing **"Components"**. This panel is always useful to have open because it is where you search for parts to place. 
+The JLC library is stored in our repository as a git submodule in the [libraries](https://github.com/qfsae/pcb/tree/master/libraries) folder. Locally, if this folder does not contain the JLC library make sure you set up the submodules using `git submodule update --init`. 
+
+With the library files savd locally (in this case the JLC library), open Altium and bring up the components panel if it is not already visible on the right of the window. This can be done by clicking on the **"Panels"** button in the bottom right corner and choosing **"Components"**. This panel is always useful to have open because it is where you search for parts to place. 
 
 Click on 3-lines icon and choose **"File-based Libraries Preferences"**
 
@@ -66,11 +68,12 @@ For more information about available part libraries, see the [documentation](htt
 #### Other Libraries
 For a broader selection of high quality footprints we use the open source Celestial Library. To install this library, follow the installation guide for the [Celestial Altium Library](https://altiumlibrary.com/GetStarted). 
 
-The component you are looking for will not always appear in the JLC PCB or Celestial libraries. If this is the case, then use Altium's manufacturer part search feature. Try to avoid using online part footprints wherever possible, as it can become difficult to maintain. 
+The component you are looking for will not always appear in the JLC PCB or Celestial libraries. If this is the case, then use Altium's manufacturer part search feature. Try to avoid using online part footprints wherever possible, as it can become difficult to maintain. If it is found that a number of common parts cannot be found in either library, we may start an internal QFSAE library with custom footprints.
 
 ### Design Rule Configuration
+Design rules help ensure that the PCB you lay out can actually be manufactured. Once you have completed your design, a **design rule check** is run to validate that it does not violate any rules. In most cases, for example minimum component clearance, the violation will be shown visually in the PCB editor with hatched shading. It is vital that your design passes design rule checking before being manufactured. Since design rules pertain to PCBs and not schematics, **it is recommended to design your schematic completely
 
-The design rules you import will depend on the layer count and copper density you want to use (JLCPCB offers 1oz and 2oz). The `.RUL` Altium design rule files can be found in `pcb/libraries/jlcpcb-design-rules-stackups/design-rules/altium`. The instructions for importing the design rules into your project can be found [here](https://www.altium.com/documentation/altium-designer/constraining-the-design-design-rules-ad#!exporting-and-importing-rules).
+Since our PCB's are primarily manufactured at JLCPCB, we must tailor our design rules to their capabilities. Thankfully, we can import sets of design rules depending on the type of board being designed. The design rules you import will depend on the layer count and copper density you want to use (JLCPCB offers 1oz and 2oz). The `.RUL` Altium design rule files can be found in the `pcb/libraries/jlcpcb-design-rules-stackups/design-rules/altium` folder. Instructions for importing the design rules into your project can be found [here](https://www.altium.com/documentation/altium-designer/constraining-the-design-design-rules-ad#!exporting-and-importing-rules).
 
 ## Version Control
 
@@ -129,7 +132,8 @@ Altium has integrated Git support. The instructions below show how to configure 
 
 To contribute a new PCB design, follow these steps:
 
-- Make sure you are up to date on master, then start a new branch using `git branch -b branchName`. 
+- Make sure you are up to date on master. To do this, you can run `git status` and confirm that you're currently tracking the master branch, and then run `git pull`. If you are not on master already, make sure any changes in the current branch are pushed or stashed and run `git checkout master`
+- Start a new branch using `git branch -b branchName`
 - Commit the Altium project in its own folder at the top level of the repository on a new branch matching the project name
 - Open a pull request on this branch, set it to merge to the `master` branch
 - To initiate the design review, assign several other electrical team members to pull request via the request review feature on GitHub. At minimum, assign the electrical lead for review. Board change requests and feedback will be provided as comments on the pull request.

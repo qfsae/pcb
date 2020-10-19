@@ -133,7 +133,7 @@ Altium has integrated Git support. The instructions below show how to configure 
 To contribute a new PCB design, follow these steps:
 
 - Make sure you are up to date on master. To do this, you can run `git status` and confirm that you're currently tracking the master branch, and then run `git pull`. If you are not on master already, make sure any changes in the current branch are pushed or stashed and run `git checkout master`
-- Start a new branch using `git branch -b branchName`
+- Start a new branch using `git checkout -b branchName`
 - Commit the Altium project in its own folder at the top level of the repository on a new branch matching the project name
 - Open a pull request on this branch, set it to merge to the `master` branch
 - To initiate the design review, assign several other electrical team members to pull request via the request review feature on GitHub. At minimum, assign the electrical lead for review. Board change requests and feedback will be provided as comments on the pull request.

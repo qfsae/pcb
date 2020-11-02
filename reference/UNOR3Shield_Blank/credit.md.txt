@@ -1,0 +1,4 @@
+# Credit for this reference design
+
+Source: https://forum.arduino.cc/index.php?topic=115446.0
+

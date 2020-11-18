@@ -140,3 +140,6 @@ To contribute a new PCB design, follow these steps:
 - Once each reviewer has verified that the PCB satisfies the relevant checklist above, the designer will generate Gerber files for the PCB and commit them
 - After the Gerbers are double checked, the pull request is merged and the board can be ordered. If the PCB arrives and has errors, then the design is removed from `master` branch and the process starts again.
 - Process Example: https://github.com/qfsae/pcb/pull/2
+
+# Viewing Designs Without Opening Altium
+Altium has a [web tool](https://www.altium.com/viewer/) that allows you to upload Altium SchDoc and PcbDoc files and view them in browser. This may be handy for Mac or Linux users who need to quickly reference or review designs without rebooting or accessing a VM.

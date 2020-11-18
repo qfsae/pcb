@@ -142,4 +142,4 @@ To contribute a new PCB design, follow these steps:
 - Process Example: https://github.com/qfsae/pcb/pull/2
 
 # Viewing Designs Without Opening Altium
-Altium has a [web tool](https://www.altium.com/viewer/) that allows you to upload Altium SchDoc and PcbDoc files and view them in browser. This may be handy for Mac or Linux users who need to quickly reference or review designs without rebooting or accessing a VM.
+Altium has a [web tool](https://www.altium.com/viewer/) that allows you to upload Altium SchDoc and PcbDoc files and view them in browser. This may be handy for Mac or Linux users who need to quickly reference or review designs without rebooting or accessing a VM. The tool provides visual renderings and BOM information allowing for full design access separate from Altium.

@@ -133,10 +133,13 @@ Altium has integrated Git support. The instructions below show how to configure 
 To contribute a new PCB design, follow these steps:
 
 - Make sure you are up to date on master. To do this, you can run `git status` and confirm that you're currently tracking the master branch, and then run `git pull`. If you are not on master already, make sure any changes in the current branch are pushed or stashed and run `git checkout master`
-- Start a new branch using `git branch -b branchName`
+- Start a new branch using `git checkout -b branchName`
 - Commit the Altium project in its own folder at the top level of the repository on a new branch matching the project name
 - Open a pull request on this branch, set it to merge to the `master` branch
 - To initiate the design review, assign several other electrical team members to pull request via the request review feature on GitHub. At minimum, assign the electrical lead for review. Board change requests and feedback will be provided as comments on the pull request.
 - Once each reviewer has verified that the PCB satisfies the relevant checklist above, the designer will generate Gerber files for the PCB and commit them
 - After the Gerbers are double checked, the pull request is merged and the board can be ordered. If the PCB arrives and has errors, then the design is removed from `master` branch and the process starts again.
 - Process Example: https://github.com/qfsae/pcb/pull/2
+
+# Viewing Designs Without Opening Altium
+Altium has a [web tool](https://www.altium.com/viewer/) that allows you to upload Altium SchDoc and PcbDoc files and view them in browser. This may be handy for Mac or Linux users who need to quickly reference or review designs without rebooting or accessing a VM. The tool provides visual renderings and BOM information allowing for full design access separate from Altium.

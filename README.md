@@ -7,6 +7,7 @@ This repository stores the various PCB designs made by the QFSAE team as well as
 - Clone the repository using the git command line interface (CLI) by typing the command `git clone https://github.com/qfsae/pcb.git`.
 - Download the Altium Designer library modules using `git submodule update --init`.
 - Alternatively to the CLI, you can install [GitHub Desktop](https://desktop.github.com/). Cloning the repository with GitHub Desktop will automatically download the sub modules.
+- For a full picture of Git and its various functions, check out this Git and GitHub [handbook](https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833).
 
 # Altium Designer
 

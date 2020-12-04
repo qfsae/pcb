@@ -7,6 +7,7 @@ This repository stores the various PCB designs made by the QFSAE team as well as
 - Clone the repository using the git command line interface (CLI) by typing the command `git clone https://github.com/qfsae/pcb.git`.
 - Download the Altium Designer library modules using `git submodule update --init`.
 - Alternatively to the CLI, you can install [GitHub Desktop](https://desktop.github.com/). Cloning the repository with GitHub Desktop will automatically download the sub modules.
+- For a full picture of Git and its various functions, check out this Git and GitHub [handbook](https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833).
 
 # Altium Designer
 
@@ -140,3 +141,6 @@ To contribute a new PCB design, follow these steps:
 - Once each reviewer has verified that the PCB satisfies the relevant checklist above, the designer will generate Gerber files for the PCB and commit them
 - After the Gerbers are double checked, the pull request is merged and the board can be ordered. If the PCB arrives and has errors, then the design is removed from `master` branch and the process starts again.
 - Process Example: https://github.com/qfsae/pcb/pull/2
+
+# Viewing Designs Without Opening Altium
+Altium has a [web tool](https://www.altium.com/viewer/) that allows you to upload Altium SchDoc and PcbDoc files and view them in browser. This may be handy for Mac or Linux users who need to quickly reference or review designs without rebooting or accessing a VM. The tool provides visual renderings and BOM information allowing for full design access separate from Altium.

@@ -86,6 +86,8 @@ Altium has integrated Git support. The instructions below show how to configure 
 
 ## Schematic Checklist
 - All important nets named
+- No spaces in net names (use underscores)
+- Net names do NOT begin with numbers or other special characters such as `+-/\`. This makes naming software variables corresponding to a certain net easier.
 - No 4 point connections
 - Short circuit protection via current monitor implementation or fuse, Specifically for power rails supplying expensive parts
 - No circuit compilation errors

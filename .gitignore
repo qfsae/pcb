@@ -3,6 +3,10 @@
 # History Folders
 **/History/*
 
+# Gerbers
+**/gerbers/
+**/schematics/
+
 # Project Logs
 Project\ Logs*/
 

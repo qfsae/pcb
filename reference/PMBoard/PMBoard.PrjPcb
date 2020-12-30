@@ -23,12 +23,14 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for PMBoard
+IsProjectConflictPreventionWarningsEnabled=1
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -208,23 +210,6 @@ GenerateClassCluster=0
 DocumentUniqueId=LRDFZWUN
 
 [Document11]
-DocumentPath=..\libraries\misc\misc.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZXZQHTGY
-
-[Document12]
 DocumentPath=MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +226,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +243,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMERQECS
 
-[Document14]
+[Document13]
 DocumentPath=CAN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +260,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=DR74.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -293,123 +278,123 @@ GenerateClassCluster=0
 DocumentUniqueId=NLJLSSHS
 
 [GeneratedDocument1]
-DocumentPath=.\gerbers\2020-08-28.1
+DocumentPath=gerbers\2020-08-28.1
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\gerbers\2020-08-28.DRR
+DocumentPath=gerbers\2020-08-28.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\gerbers\2020-08-28.EXTREP
+DocumentPath=gerbers\2020-08-28.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\gerbers\2020-08-28.GBL
+DocumentPath=gerbers\2020-08-28.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\gerbers\2020-08-28.GBO
+DocumentPath=gerbers\2020-08-28.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\gerbers\2020-08-28.GBP
+DocumentPath=gerbers\2020-08-28.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\gerbers\2020-08-28.GBS
+DocumentPath=gerbers\2020-08-28.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\gerbers\2020-08-28.GKO
+DocumentPath=gerbers\2020-08-28.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\gerbers\2020-08-28.GM1
+DocumentPath=gerbers\2020-08-28.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\gerbers\2020-08-28.GM2
+DocumentPath=gerbers\2020-08-28.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\gerbers\2020-08-28.GM3
+DocumentPath=gerbers\2020-08-28.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\gerbers\2020-08-28.GM5
+DocumentPath=gerbers\2020-08-28.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\gerbers\2020-08-28.GM13
+DocumentPath=gerbers\2020-08-28.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\gerbers\2020-08-28.GM15
+DocumentPath=gerbers\2020-08-28.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\gerbers\2020-08-28.GM16
+DocumentPath=gerbers\2020-08-28.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\gerbers\2020-08-28.GM20
+DocumentPath=gerbers\2020-08-28.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\gerbers\2020-08-28.GM21
+DocumentPath=gerbers\2020-08-28.GM21
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=.\gerbers\2020-08-28.GM23
+DocumentPath=gerbers\2020-08-28.GM23
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\gerbers\2020-08-28.GM24
+DocumentPath=gerbers\2020-08-28.GM24
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=.\gerbers\2020-08-28.GML
+DocumentPath=gerbers\2020-08-28.GML
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=.\gerbers\2020-08-28.GPB
+DocumentPath=gerbers\2020-08-28.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=.\gerbers\2020-08-28.GPT
+DocumentPath=gerbers\2020-08-28.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=.\gerbers\2020-08-28.GTL
+DocumentPath=gerbers\2020-08-28.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=.\gerbers\2020-08-28.GTO
+DocumentPath=gerbers\2020-08-28.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=.\gerbers\2020-08-28.GTP
+DocumentPath=gerbers\2020-08-28.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=.\gerbers\2020-08-28.GTS
+DocumentPath=gerbers\2020-08-28.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=.\gerbers\2020-08-28.LDP
+DocumentPath=gerbers\2020-08-28.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=.\gerbers\2020-08-28.REP
+DocumentPath=gerbers\2020-08-28.REP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=.\gerbers\2020-08-28.RUL
+DocumentPath=gerbers\2020-08-28.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=.\gerbers\2020-08-28.TXT
+DocumentPath=gerbers\2020-08-28.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument31]
@@ -435,7 +420,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for PMBoard
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -859,78 +844,6 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType18=Text Print
-OutputName18=Text Print
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType19=Text Print
-OutputName19=Text Print
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType20=Text Print
-OutputName20=Text Print
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType21=Text Print
-OutputName21=Text Print
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType22=Text Print
-OutputName22=Text Print
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType23=Text Print
-OutputName23=Text Print
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
-PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType24=Text Print
-OutputName24=Text Print
-OutputDocumentPath24=
-OutputVariantName24=
-OutputDefault24=0
-PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType25=Text Print
-OutputName25=Text Print
-OutputDocumentPath25=
-OutputVariantName25=
-OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType26=Text Print
-OutputName26=Text Print
-OutputDocumentPath26=
-OutputVariantName26=
-OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType27=Text Print
-OutputName27=Text Print
-OutputDocumentPath27=
-OutputVariantName27=
-OutputDefault27=0
-PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType28=Text Print
-OutputName28=Text Print
-OutputDocumentPath28=
-OutputVariantName28=
-OutputDefault28=0
-PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType29=Text Print
-OutputName29=Text Print
-OutputDocumentPath29=
-OutputVariantName29=
-OutputDefault29=0
-PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -1362,6 +1275,9 @@ Type119=3
 MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
+Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1429,12 +1345,12 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9

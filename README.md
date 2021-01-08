@@ -7,6 +7,7 @@ This repository stores the various PCB designs made by the QFSAE team as well as
 - Clone the repository using the git command line interface (CLI) by typing the command `git clone https://github.com/qfsae/pcb.git`.
 - Download the Altium Designer library modules using `git submodule update --init`.
 - Alternatively to the CLI, you can install [GitHub Desktop](https://desktop.github.com/). Cloning the repository with GitHub Desktop will automatically download the sub modules.
+- For a full picture of Git and its various functions, check out this Git and GitHub [handbook](https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833).
 
 # Altium Designer
 
@@ -85,6 +86,8 @@ Altium has integrated Git support. The instructions below show how to configure 
 
 ## Schematic Checklist
 - All important nets named
+- No spaces in net names (use underscores)
+- Net names do NOT begin with numbers or other special characters such as `+-/\`. This makes naming software variables corresponding to a certain net easier.
 - No 4 point connections
 - Short circuit protection via current monitor implementation or fuse, Specifically for power rails supplying expensive parts
 - No circuit compilation errors

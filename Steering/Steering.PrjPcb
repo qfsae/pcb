@@ -63,7 +63,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -74,7 +74,75 @@ GenerateClassCluster=0
 DocumentUniqueId=UCYNJLEN
 
 [Document3]
-DocumentPath=PCB.PcbDoc
+DocumentPath=Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CEPRQNVN
+
+[Document4]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EAKACHJV
+
+[Document5]
+DocumentPath=CAN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NOZMAXVT
+
+[Document6]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DKZLSSWM
+
+[Document7]
+DocumentPath=PCB.pcbdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -88,7 +156,148 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KEKCYXGQ
+DocumentUniqueId=PIMJACGD
+
+[Document8]
+DocumentPath=Neopixel.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QZSZXUMQ
+
+[GeneratedDocument1]
+DocumentPath=.\gerbers\2021-03-10.1
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=.\gerbers\2021-03-10.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=.\gerbers\2021-03-10.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=.\gerbers\2021-03-10.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=.\gerbers\2021-03-10.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=.\gerbers\2021-03-10.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=.\gerbers\2021-03-10.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=.\gerbers\2021-03-10.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=.\gerbers\2021-03-10.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=.\gerbers\2021-03-10.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=.\gerbers\2021-03-10.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=.\gerbers\2021-03-10.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=.\gerbers\2021-03-10.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=.\gerbers\2021-03-10.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=.\gerbers\2021-03-10.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=.\gerbers\2021-03-10.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=.\gerbers\2021-03-10.GM16
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=.\gerbers\2021-03-10.GML
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=.\gerbers\2021-03-10.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=.\gerbers\2021-03-10.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=.\gerbers\2021-03-10.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=.\gerbers\2021-03-10.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=.\gerbers\2021-03-10.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=.\gerbers\2021-03-10.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=.\gerbers\2021-03-10.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=.\gerbers\2021-03-10.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=.\gerbers\2021-03-10.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=.\gerbers\2021-03-10.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=assembly\BOM\Bill of Materials-PCB.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for Steering\Design Rule Check - PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=assembly\Pick Place\Pick Place for PCB.csv
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -103,7 +312,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -205,12 +414,42 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -287,7 +526,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -309,7 +548,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -381,7 +620,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -418,7 +657,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -526,7 +765,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -570,7 +809,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -631,7 +870,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=WorkCentre 6515 PS
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -998,10 +1237,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Celestial.DbLib/Resistors - Surface Mount - 0201
+ComponentDesignItemID0=RK73H1HTTC2200F
+ComponentSymbolReference0=Resistor
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1015,6 +1260,81 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=ComponentLink1Description
+ParameterUpdate2=1
+ParameterName3=ComponentLink1URL
+ParameterUpdate3=1
+ParameterName4=ComponentLink2Description
+ParameterUpdate4=1
+ParameterName5=ComponentLink2URL
+ParameterUpdate5=1
+ParameterName6=Composition
+ParameterUpdate6=1
+ParameterName7=Description
+ParameterUpdate7=1
+ParameterName8=Device Package
+ParameterUpdate8=1
+ParameterName9=Features
+ParameterUpdate9=1
+ParameterName10=Height - Seated (Max)
+ParameterUpdate10=1
+ParameterName11=LastUpdated
+ParameterUpdate11=1
+ParameterName12=Library Reference
+ParameterUpdate12=1
+ParameterName13=Lifecycle Status
+ParameterUpdate13=1
+ParameterName14=Manufacturer
+ParameterUpdate14=1
+ParameterName15=Minimum Order
+ParameterUpdate15=1
+ParameterName16=Number of Terminations
+ParameterUpdate16=1
+ParameterName17=Operating Temperature
+ParameterUpdate17=1
+ParameterName18=Package / Case
+ParameterUpdate18=1
+ParameterName19=Packaging
+ParameterUpdate19=1
+ParameterName20=Part Number
+ParameterUpdate20=1
+ParameterName21=Part Status
+ParameterUpdate21=1
+ParameterName22=PartId
+ParameterUpdate22=1
+ParameterName23=Power (Watts)
+ParameterUpdate23=1
+ParameterName24=Price
+ParameterUpdate24=1
+ParameterName25=Ratings
+ParameterUpdate25=1
+ParameterName26=Resistance
+ParameterUpdate26=1
+ParameterName27=Series
+ParameterUpdate27=1
+ParameterName28=Size / Dimension
+ParameterUpdate28=1
+ParameterName29=Supplier 1
+ParameterUpdate29=1
+ParameterName30=Supplier Device Package
+ParameterUpdate30=1
+ParameterName31=Supplier Part Number 1
+ParameterUpdate31=1
+ParameterName32=Temperature Coefficient
+ParameterUpdate32=1
+ParameterName33=Tolerance
+ParameterUpdate33=1
+ParameterName34=Value
+ParameterUpdate34=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=RES 0201_0603
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

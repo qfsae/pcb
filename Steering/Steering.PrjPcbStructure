@@ -1,0 +1,6 @@
+Record=TopLevelDocument|FileName=TOP.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=TOP.SchDoc|Designator=Connectors|SchDesignator=Connectors|FileName=Connectors.SchDoc|SheetNumber=1|SymbolType=Normal|RawFileName=Connectors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TOP.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=MCU.SchDoc|SheetNumber=1|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TOP.SchDoc|Designator=Power|SchDesignator=Power|FileName=Power.SchDoc|SheetNumber=1|SymbolType=Normal|RawFileName=Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Connectors.SchDoc|Designator=Neopixel|SchDesignator=Neopixel|FileName=Neopixel.SchDoc|SheetNumber=1|SymbolType=Normal|RawFileName=Neopixel.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MCU.SchDoc|Designator=CAN|SchDesignator=CAN|FileName=CAN.SchDoc|SheetNumber=1|SymbolType=Normal|RawFileName=CAN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

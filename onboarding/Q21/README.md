@@ -10,4 +10,5 @@ in the Q21 season. The list of projects and their authors are given below:
 | Testbench Power Supply     |   Breaks out 5 and 3.3 V rails from a single 12 V input.                                                                     | Robert Mirandola               |
 |   Testbench Power Supply   |   Breaks out 5 and 3.3 V rails from a single 12 V input.                                                                      | Angus Hodgins               |
 |   Testbench Power Supply   |   Breaks out 5 and 3.3 V rails from a single 12 V input.                                                                      | Matt MacDonald              |
+|    Brakelight   |         LED Brakelight for the car.                     | Eric Jin              |
 

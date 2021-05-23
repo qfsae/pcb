@@ -22,23 +22,18 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          # Make sure the actual branch is checked out when running on pull requests
-          ref: ${{ github.head_ref }}
-          # This is important to fetch the changes to the previous commit
-          fetch-depth: 0
-        
-      - name: Prettify Markdown
-        uses: creyD/prettier_action@v3.3
-        with:
-          # This part is also where you can pass other options, for example:
-          prettier_options: --write **/README.md
-          only_changed: True
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        # Make sure the actual branch is checked out when running on pull requests
+        ref: ${{ github.head_ref }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Apply Autoformat
+    - name: Prettify code
+      uses: creyD/prettier_action@v3.3
+      with:
+        # This part is also where you can pass other options, for example:
+        prettier_options: --write **/*.md
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 

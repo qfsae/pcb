@@ -37,13 +37,8 @@ jobs:
           # This part is also where you can pass other options, for example:
           prettier_options: --write **/README.md
           only_changed: True
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit Formatted Files
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Apply Prettier Changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: Apply Autoformat
 

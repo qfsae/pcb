@@ -25,12 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      name: Prettify code
-      uses: creyD/prettier_action@v3.3
-      with:
-        # This part is also where you can pass other options, for example:
-        prettier_options: --write **/README.md
-        only_changed: True
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Prettify Markdown
+        uses: creyD/prettier_action@v3.3
+        with:
+          # This part is also where you can pass other options, for example:
+          prettier_options: --write **/README.md
+          only_changed: True
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

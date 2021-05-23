@@ -22,12 +22,13 @@
 - What specific manufacturer will you work with?
 - Will the board be assembled or hand soldered? If it is assembled, what parts library are you using and will the manufacturer be able to source those parts? This is important as some fab houses like JLC PCB will have limited part selection to choose from.
 
-- Functional Description of the PCB
-  - What purpose will it serve?
-  - Is it for the car or is it support equipment?
-  - What manufacturer is being targeted and what libraries are in use?
-  - List any design requirements discussed here. These could be size, height, power constraints etc.
-  - Provide any useful figures that help visualize these constraints. This will clarify what is in scope for the particular design.
+## Timeline
+- Give a rough timeline of when each stage of the project will be complete
+  - When will schematics be finished?
+  - How much time is required to complete the layout?
+  - Time set aside for design reviews
+  - Manufacturing of the board and associated lead time
+  - Time required to bring-up and test the board
 
 ## Implementation Description
 
@@ -41,5 +42,20 @@
 
 ### Software
 - What software resources (if any) are needed to get the board up and running? Do the software already exist or must new libraries / tools be designed from scratch?
+- Link to relevant software resources in the zenith repository
 
+## Test Plan
+TODO
 
+- Should include checking all power rails for shorts
+- Power on test (status LED turns on)
+
+- Are the rails all producing the correct voltages? (it is helpful to include your DMM readings here)
+- Are the clock signals on the board the correct speed? If there is an MCU, is it making use of the external clock?
+  - If an oscilloscope is available, consider capturing a plot of the clock signal that includes frequency and peak to peak voltage.
+- I/O Testing. This should be an exhaustive test of all the input and outputs of your board. Some examples are given below.
+  - If there is an MCU, can you program it with the qfsae debugger? Does the debugger provide enough power or are external sources needed?
+  - Do LEDs connnected to the MCU work?
+  - Does CAN bus work?
+- Also remember to explain the steps you took when something did not work as expected. For example, "The neopixel were not working correctly, I discovered that the voltage translator required an output enable signal to be enabled to push the data through."
+- There is no prescribed format for this section but it should clearly test each part of the board and provide background on problems with the design and how to fix them if possible.

@@ -44,7 +44,7 @@ Once signed in, you must choose a license to take out in the License Management 
 
 Please try to release your license whenever you are not working in Altium we don't run out of seats!
 
-*Note:* If you are having issues using a license, verify your system time is correct. This issue is common on Windows/Linux dual boots where rebooting back into Windows can offset the time.
+_Note:_ If you are having issues using a license, verify your system time is correct. This issue is common on Windows/Linux dual boots where rebooting back into Windows can offset the time.
 
 ### Part Library Setup
 
@@ -80,7 +80,7 @@ The component you are looking for will not always appear in the JLC PCB or Celes
 
 ### Design Rule Configuration
 
-Design rules help ensure that the PCB you lay out can actually be manufactured. Once you have completed your design, a **design rule check** is run to validate that it does not violate any rules. In most cases, for example minimum component clearance, the violation will be shown visually in the PCB editor with hatched shading. It is vital that your design passes design rule checking before being manufactured. Since design rules pertain to PCBs and not schematics, **it is recommended to design your schematic completely
+Design rules help ensure that the PCB you lay out can actually be manufactured. Once you have completed your design, a **design rule check** is run to validate that it does not violate any rules. In most cases, for example minimum component clearance, the violation will be shown visually in the PCB editor with hatched shading. It is vital that your design passes design rule checking before being manufactured. Since design rules pertain to PCBs and not schematics, \*\*it is recommended to design your schematic completely
 
 Since our PCB's are primarily manufactured at JLCPCB, we must tailor our design rules to their capabilities. Thankfully, we can import sets of design rules depending on the type of board being designed. The design rules you import will depend on the layer count and copper density you want to use (JLCPCB offers 1oz and 2oz). The `.RUL` Altium design rule files can be found in the `pcb/libraries/jlcpcb-design-rules-stackups/design-rules/altium` folder. Instructions for importing the design rules into your project can be found [here](https://www.altium.com/documentation/altium-designer/constraining-the-design-design-rules-ad#!exporting-and-importing-rules).
 

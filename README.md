@@ -141,6 +141,20 @@ Altium has integrated Git support. The instructions below show how to configure 
 - Checklist does not apply to ground and power planes, only to polygons used in routing.
 - Do NOT use overlapping polygons, combine the two polygons together into one and adjust the final shape accordingly.
 
+## Release Checklist
+
+The release checklist requires a sign-off meeting with a senior electrical team member. When you are ready to release your design to a vendor, please run through this checklist with a senior member to generate the fabrication files.
+
+- DRC check has been run before creating the fabrication files (fab package) and there are no errors.
+- All polygons have been repoured before generating fab package (Check for any shelved polygons too! DRC will warn of this as well).
+- Fabrication files were generated using the output job to ensure the BOM, pick and place and gerbers are in sync with one another.
+- Use [gerbv](https://sourceforge.net/projects/gerbv/) to open up the gerbers, a senior member can help with this. Look at the top and bottom layers and try to see if anything could be missing.
+  - Is the silkscreen there? Is it correct?
+  - Look through the paste layers, will paste be applied to all the correct pads? (needs to be correct for assembly or stencil use)
+  - Look at the top and bottom solder, is copper exposed in the correct places? (needs to be correct for assembly or stencil use)
+  - Is the correct board outline present? (Mechanical Layer 1, also called GM1)
+  - Are board cutouts correct? Ex. Are the mounting holes actually drilled holes? (Make sure you are pulling in NC Drill file into gerbv)
+
 # Contributing a New Design and Starting a Review
 
 To contribute a new PCB design, follow these steps:

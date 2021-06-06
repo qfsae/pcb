@@ -149,8 +149,8 @@ The release checklist requires a sign-off meeting with a senior electrical team 
 - All polygons have been repoured before generating fab package (Check for any shelved polygons too! DRC will warn of this as well).
 - Fabrication files were generated using the output job to ensure the BOM, pick and place and gerbers are in sync with one another.
 - Use [gerbv](https://sourceforge.net/projects/gerbv/) to open up the gerbers, a senior member can help with this. Look at the top and bottom layers and try to see if anything could be missing.
-  - Is the silkscreen there? is it correct?
-  - Look through the paste layers, will paste be applied to all the correct pads? (needs to be correct for assembly for stencil use)
+  - Is the silkscreen there? Is it correct?
+  - Look through the paste layers, will paste be applied to all the correct pads? (needs to be correct for assembly or stencil use)
   - Look at the top and bottom solder, is copper exposed in the correct places? (needs to be correct for assembly or stencil use)
   - Is the correct board outline present? (Mechanical Layer 1, also called GM1)
   - Are board cutouts correct? Ex. Are the mounting holes actually drilled holes?

@@ -153,7 +153,7 @@ The release checklist requires a sign-off meeting with a senior electrical team 
   - Look through the paste layers, will paste be applied to all the correct pads? (needs to be correct for assembly or stencil use)
   - Look at the top and bottom solder, is copper exposed in the correct places? (needs to be correct for assembly or stencil use)
   - Is the correct board outline present? (Mechanical Layer 1, also called GM1)
-  - Are board cutouts correct? Ex. Are the mounting holes actually drilled holes?
+  - Are board cutouts correct? Ex. Are the mounting holes actually drilled holes? (Make sure you are pulling in NC Drill file into gerbv)
 
 # Contributing a New Design and Starting a Review
 

@@ -4,3 +4,7 @@
 [submodule "libraries/jlcpcb-design-rules-stackups"]
 	path = libraries/jlcpcb-design-rules-stackups
 	url = https://github.com/ayberkozgur/jlcpcb-design-rules-stackups.git
+[submodule "libraries/elib-altium"]
+	path = libraries/elib-altium
+	url = https://github.com/ethanmpeterson/elib-altium.git
+

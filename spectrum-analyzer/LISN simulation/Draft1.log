@@ -1,13 +1,9 @@
 Circuit: * C:\Users\Fabian Sosa\Desktop\QFSAE\Electrical\Git\pcb\spectrum-analyzer\LISN simulation\Draft1.asc
 
 Number of points per octave reduced from 1000000 to 5373.
-WARNING: Node N002 is floating.
 
-WARNING: Less than two connections to node V_OUT.  This node is used by L1.
-WARNING: Less than two connections to node N002.  This node is used by C2.
-
-Date: Sat Aug 21 12:27:17 2021
-Total elapsed time: 0.210 seconds.
+Date: Sun Aug 22 21:29:23 2021
+Total elapsed time: 0.202 seconds.
 
 tnom = 27
 temp = 27

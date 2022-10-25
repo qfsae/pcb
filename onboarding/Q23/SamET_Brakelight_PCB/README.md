@@ -1,10 +1,8 @@
 # Template PCB Readme
 
 ## Purpose
-
-- Write a few sentences here about what features the board will have.
-- What problems does it solve?
-- How will it fit into the broader electrical system?
+The board contains simple circuitry to implement brake lights on the car. It involves parallel red diodes connected to VBATT/VBATT- with a dual pin connector. 
+There's unrouted net constraint errors and I forgot how to ensure all elements are routed properly on the PCB. Any help would be appreciated!
 
 ## Scope
 

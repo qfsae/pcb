@@ -43,7 +43,7 @@ The test board has two outputs that act as the Throttle Position Sensor (TPS) al
 Both SW5 and SW6 are used to drive the output high. When the switches are closed, the voltages seen by the input pin of SW3 or SW4 is five volts. Otherwise, five-volt input is set to float.
 ####Switches One (SW1) and Two (SW2)
 SW1 and SW2 give the user the opportunity to change the output voltage. This is done by toggling between either a ten-kilohm resister, or a ten-kilohm variable resistor (potentiometer).  
-####Switches Three (SW3) and Four (SW4)
+#### Switches Three (SW3) and Four (SW4)
 SW3 and SW4 act as a gate to the BSPD. When the switches are set to pin 1, the BSPD can see the input. When the switches are set to pin 3, break/throttle inputs are disconnected, allowing the user to simulate sensor disconnect.
 
 ### Switch Truth Table

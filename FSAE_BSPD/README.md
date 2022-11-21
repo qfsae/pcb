@@ -21,8 +21,8 @@ To be able to compete on track at an FSAE event, any FSAE team running an electr
 1. The BSPD signals and function must be able to be checked during Technical Inspection by having one of:
    - A separate set of detachable connectors for any signals from the braking sensor(s), throttle sensor(s) and removal of power to only the BSPD device.
    - An inline switchable breakout box available that allows disconnection of the brake sensor(s), throttle sensor(s) individually and power to only the BSPD device.
-   The BSPD Test board was created to showcase the regulations above.
-The BSPD Test board was created to showcase the regulations above.
+     The BSPD Test board was created to showcase the regulations above.
+     The BSPD Test board was created to showcase the regulations above.
 
 ## Circuitry
 

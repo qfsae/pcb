@@ -270,23 +270,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=Dash Area.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document15]
 DocumentPath=Engine Bay and Rear Tube.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,24 +286,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
-DocumentPath=TOP.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document17]
+[Document15]
 DocumentPath=REAR_LOOM_BULKHEAD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,7 +303,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IYDXUPJR
 
-[Document18]
+[Document16]
 DocumentPath=REAR_LOOM_BULKHEAD.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,7 +320,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document17]
 DocumentPath=PEDALBOX_BULKHEAD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +337,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OLGQHWUN
 
-[Document20]
+[Document18]
 DocumentPath=PEDALBOX_BULKHEAD.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -388,7 +354,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document19]
 DocumentPath=UNDERLEGS_BULKHEAD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -405,7 +371,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TILAMBJV
 
-[Document22]
+[Document20]
 DocumentPath=UNDERLEGS_BULKHEAD.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -422,7 +388,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document21]
 DocumentPath=Under Legs.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -439,7 +405,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document22]
 DocumentPath=DASH_BULKHEAD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -456,7 +422,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ECFUHXMQ
 
-[Document25]
+[Document23]
 DocumentPath=DASH_BULKHEAD.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -473,7 +439,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document24]
 DocumentPath=BSPD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -489,6 +455,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NTPCZNBY
+
+[Document25]
+DocumentPath=Dash Area.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources

@@ -12,7 +12,7 @@ This repository stores the various PCB designs made by the QFSAE team as well as
 
 # Altium Designer
 
-The QFSAE team designs its boards using Altium Designer. If you do not have Altium Designer (hereby referred to as "Altium") installed, Please contact Ethan to obtain the appropriate licensing information to get Altium up and running on your computer. In regards to manufacturing, the team most often makes use of [JLCPCB](https://jlcpcb.com/). Traditionally, PCBs made by QFSAE members have been populated by hand in house. However, due to the restrictions imposed on team operation by the ongoing COVID-19 pandemic, it has become of utmost importance to create an Altium workflow which allows us to outsource our board assembly in an efficient manner. JLCPCB offers an economical assembly service for surface mount components with the following caveats.
+The QFSAE team designs its boards using Altium Designer. If you do not have Altium Designer (hereby referred to as "Altium") installed, Please contact Alex to obtain the appropriate licensing information to get Altium up and running on your computer. In regards to manufacturing, the team most often makes use of [JLCPCB](https://jlcpcb.com/). Traditionally, PCBs made by QFSAE members have been populated by hand in house. However, due to the restrictions imposed on team operation by the ongoing COVID-19 pandemic, it has become of utmost importance to create an Altium workflow which allows us to outsource our board assembly in an efficient manner. JLCPCB offers an economical assembly service for surface mount components with the following caveats.
 
 - All surface mount components must be on one side of the board
 - Through hole parts will not be soldered

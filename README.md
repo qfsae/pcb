@@ -24,7 +24,7 @@ In order to meet these manufacturing conditions, we must restrain the SMD parts 
 
 ## Installation & Setup
 
-Altium is licensed software. In order to get a license, contact the electrical lead (Ethan - Q23) to get your email added to the organization. Once you've been added, you should receive an email with your login. It is recommended that you sign in to [altium.com](https://www.altium.com/) and change your password.
+Altium is licensed software. In order to get a license, contact the electrical lead (Alex - Q24) to get your email added to the organization. Once you've been added, you should receive an email with your login. It is recommended that you sign in to [altium.com](https://www.altium.com/) and change your password.
 
 ### Download
 

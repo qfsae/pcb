@@ -287,23 +287,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VWFUAZWC
 
 [Document15]
-DocumentPath=..\reference\PMBoard\Sheet1.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BFAERRIW
-
-[Document16]
 DocumentPath=12_TO_3V3_VOLTAGE_DIVIDER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +303,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FHRJRUWU
 
-[Document17]
+[Document16]
 DocumentPath=5V_TO_3V3_VOLTAGE_DIVIDER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

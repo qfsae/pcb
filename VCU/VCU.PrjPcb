@@ -273,40 +273,6 @@ GenerateClassCluster=0
 DocumentUniqueId=LDJCWUML
 
 [Document14]
-DocumentPath=ShiftRegister.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=9
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QNTEPNZH
-
-[Document15]
-DocumentPath=ShiftRegister.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document16]
 DocumentPath=24V_Load_Switches.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -323,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AIFXXOLF
 
-[Document17]
+[Document15]
 DocumentPath=24V_FETS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -340,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XZOSITQP
 
-[Document18]
+[Document16]
 DocumentPath=5V_Load_Switches.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -357,7 +323,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QUJNVSUB
 
-[Document19]
+[Document17]
 DocumentPath=12V_Load_Switches.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -374,7 +340,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDKHCOIQ
 
-[Document20]
+[Document18]
 DocumentPath=..\..\..\..\Downloads\AOZ1360AIL\AltiumDesigner\AOZ1360AIL.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -391,7 +357,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document19]
 DocumentPath=..\..\..\..\Downloads\AOZ1360AIL\AltiumDesigner\AOZ1360AIL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -408,7 +374,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UCWCYMRP
 
-[Document22]
+[Document20]
 DocumentPath=24V_Load_Switches.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -425,7 +391,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document21]
 DocumentPath=12V_Load_Switches.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -442,7 +408,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document22]
 DocumentPath=5V_Load_Switches.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -459,7 +425,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document23]
 DocumentPath=24V_FETS.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -476,7 +442,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document24]
 DocumentPath=DigitalIO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -493,7 +459,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EQXKOCJL
 
-[Document27]
+[Document25]
 DocumentPath=DigitalIO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -510,7 +476,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document26]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -527,7 +493,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TJMBURHD
 
-[Document29]
+[Document27]
 DocumentPath=12V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -544,7 +510,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TSCWTOAW
 
-[Document30]
+[Document28]
 DocumentPath=..\..\..\..\Downloads\AltiumDesigner\XAL1580-302MED.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -561,7 +527,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document29]
 DocumentPath=..\..\..\..\Downloads\AltiumDesigner\XAL1580-302MED.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -578,7 +544,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document30]
 DocumentPath=VCU.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

@@ -120,23 +120,6 @@ GenerateClassCluster=0
 DocumentUniqueId=RFJPFWSK
 
 [Document5]
-DocumentPath=CAN.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=AnalogIO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -153,7 +136,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FTDTRALN
 
-[Document7]
+[Document6]
 DocumentPath=AnalogIO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -170,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=IO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -187,7 +170,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KRWBZHOD
 
-[Document9]
+[Document8]
 DocumentPath=IO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -204,24 +187,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
-DocumentPath=TOP.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document11]
+[Document9]
 DocumentPath=12V-3V3_Divider.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DTJXEBQO
 
-[Document12]
+[Document10]
 DocumentPath=5V-3V3_Divider.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +221,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HHIMFBZS
 
-[Document13]
+[Document11]
 DocumentPath=PDM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LDJCWUML
 
-[Document14]
+[Document12]
 DocumentPath=24V_Load_Switches.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AIFXXOLF
 
-[Document15]
+[Document13]
 DocumentPath=24V_FETS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -306,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XZOSITQP
 
-[Document16]
+[Document14]
 DocumentPath=5V_Load_Switches.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -323,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QUJNVSUB
 
-[Document17]
+[Document15]
 DocumentPath=12V_Load_Switches.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -340,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDKHCOIQ
 
-[Document18]
+[Document16]
 DocumentPath=..\..\..\..\Downloads\AOZ1360AIL\AltiumDesigner\AOZ1360AIL.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -357,7 +323,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document17]
 DocumentPath=..\..\..\..\Downloads\AOZ1360AIL\AltiumDesigner\AOZ1360AIL.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -374,7 +340,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UCWCYMRP
 
-[Document20]
+[Document18]
 DocumentPath=24V_Load_Switches.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -391,7 +357,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document19]
 DocumentPath=12V_Load_Switches.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -408,7 +374,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document20]
 DocumentPath=5V_Load_Switches.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -425,7 +391,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document21]
 DocumentPath=DigitalIO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -442,7 +408,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EQXKOCJL
 
-[Document24]
+[Document22]
 DocumentPath=DigitalIO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -459,7 +425,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document23]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -476,7 +442,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TJMBURHD
 
-[Document26]
+[Document24]
 DocumentPath=12V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -493,7 +459,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TSCWTOAW
 
-[Document27]
+[Document25]
 DocumentPath=..\..\..\..\Downloads\AltiumDesigner\XAL1580-302MED.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -510,7 +476,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document26]
 DocumentPath=..\..\..\..\Downloads\AltiumDesigner\XAL1580-302MED.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -527,7 +493,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document27]
 DocumentPath=VCU.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -544,7 +510,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document28]
 DocumentPath=Power.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -561,7 +527,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document29]
 DocumentPath=5V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -578,7 +544,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GWAEWISM
 
-[Document32]
+[Document30]
 DocumentPath=24V_FETS.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -595,7 +561,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document31]
 DocumentPath=Indicators.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

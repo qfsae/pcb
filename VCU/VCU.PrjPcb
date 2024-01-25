@@ -494,23 +494,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document27]
-DocumentPath=PCB.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KQMVUQML
-
-[Document28]
 DocumentPath=Parts\SIP32510DT\SIP32510DT-T1-GE3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -527,7 +510,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document28]
 DocumentPath=Parts\SIP32510DT\SIP32510DT-T1-GE3.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -544,7 +527,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document29]
 DocumentPath=Parts\3587_10TR\3587-10TR\3587-10TR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -561,7 +544,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document30]
 DocumentPath=Parts\3587_10TR\3587-10TR\FUSE_3587-10TR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -578,7 +561,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document31]
 DocumentPath=Parts\3587_10TR\3587-10TR.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -594,6 +577,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document32]
+DocumentPath=PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JHKUSQGP
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for VCU\VCU.nsx

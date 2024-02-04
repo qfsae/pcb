@@ -596,6 +596,10 @@ GenerateClassCluster=0
 DocumentUniqueId=JHKUSQGP
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for VCU\Design Rule Check - PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for VCU\VCU.nsx
 DItemRevisionGUID=
 

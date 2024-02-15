@@ -426,7 +426,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KFAQNFSB
 
 [Document23]
-DocumentPath=PWM Inputs.SchDoc
+DocumentPath=Digital Inputs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
